@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Exo', sans-serif;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: beige;
+}
+
+nav li {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#title{
+  width: 200px;
+  background-color: black;
+  color: white;
+}
+
+a.active{
+  
+  background-color: white;
+}
+
+a:visited{
+  color: blue;
+}
+
+a{
+  text-decoration: none;
+}
+
+#inline{
+  display: inline-block;
+}
+
+main aside{
+  float: left;
+  display: block;
+  
+
+  
+}
+
+main aside ul{
+  list-style-type: none;
+  width: 178px;
+  margin-top: 0%;
+  padding-left: 0%;
+  padding: 10px 14px;
+  padding-right: 40px;
+  background-color: beige;
+  height: 100%;
+  min-height: 100vh;
+}
+
+main div{
+  display: block;
+  padding: 10px;
+}
